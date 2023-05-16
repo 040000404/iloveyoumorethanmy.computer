@@ -4,10 +4,7 @@
   overflow-x: hidden;
    
 }
-
-html{
-  transform: scale(0.5);
-}
+ 
 
 .feed{
   display: grid;
@@ -15,6 +12,7 @@ html{
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 0px;
   grid-auto-rows: minmax(100px, auto);
+  transform: scale(0.5);
 
 }
 
