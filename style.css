@@ -17,8 +17,7 @@
 }
 
 .feed img{
-  display: block;
-  transform: scale(0.99);
+  display: block; 
   /* width:45vw; */
 }
 
