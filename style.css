@@ -12,12 +12,13 @@
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 0px;
   grid-auto-rows: minmax(100px, auto);
-  transform: scale(0.5);
+   
 
 }
 
 .feed img{
   display: block;
+  transform: scale(0.7);
   /* width:45vw; */
 }
 
