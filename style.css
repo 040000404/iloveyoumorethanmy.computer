@@ -4,6 +4,11 @@
   overflow-x: hidden;
    
 }
+
+html{
+  transform: scale(0.5);
+}
+
 .feed{
   display: grid;
   box-sizing: border-box;
