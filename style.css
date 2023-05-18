@@ -1,24 +1,23 @@
+body{
+  background: linear-gradient(grey, black);
+  }
+  
 *{
-  background: #333;
   font-family:gulim;
   overflow-x: hidden;
-   
 }
- 
-
 .feed{
   display: grid;
   box-sizing: border-box;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 0px;
   grid-auto-rows: minmax(100px, auto);
-   
 
 }
 
 .feed img{
-  display: block; 
+  display: block;
   /* width:45vw; */
 }
 
-/*customize scrollbar*/ 
+/*customize scrollbar*/
