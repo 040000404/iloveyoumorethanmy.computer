@@ -1,17 +1,39 @@
 body{
   background: linear-gradient(grey, black);
+  margin:0;
   }
-  
+
 *{
   font-family:gulim;
   overflow-x: hidden;
 }
+@media only screen and (max-width: 768px) {
+
+  .feed{
+    grid-template-rows:repeat(auto-fit, minmax(100px, max-content));
+    transform-origin: 0% 0%;
+    transform:scaleY(0.3);
+
+  }
+
+  .feed img{
+    box-sizing: border-box;
+    transform-origin: 0% 0%;
+    transform:scaleX(0.3);
+  }
+
+  .blog{
+
+  }
+}
+
 .feed{
   display: grid;
   box-sizing: border-box;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 0px;
-  grid-auto-rows: minmax(100px, auto);
+  /* grid-auto-rows: minmax(100px, auto); */
+  margin: 0;
 
 }
 
